@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+
+  bot:
+    build: .
+    container_name: pages_bot
+    restart: always
+    environment:
+      - TOKEN
